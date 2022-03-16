@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- GOOGLE FONTS CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- BOX ICON CDN -->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- custom styles -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Simple Blog</title>
+  </head>
+  <body class="light">
+    <header>
+      <div class="header_left_panel">
+        <div class="header_logo">
+          <p class="logo_text">Simple Blog</p>
+        </div>
+        <div class="header_left_panel_links">
+          <ul>
+            <li class="nav_link"><a href="#">Home</a></li>
+            <li class="nav_link"><a href="#">Posts</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="header_right_panel">
+        <div class="theme_controls_container">
+          <div class="light_theme">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+              <path
+                d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"
+              />
+            </svg>
+          </div>
+
+          <div class="theme_toggle_button">
+            <div class="theme_toggle_slider"></div>
+          </div>
+
+          <div class="dark_theme">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+              <path
+                d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="searchbar_container">
+          <i class="bx bx-search"></i>
+        </div>
+      </div>
+    </header>
+
+    <div class="navigation_guide">
+      <p>Home</p>
+      <i class="bx bx-chevron-right"></i>
+      <p>Post</p>
+      <i class="bx bx-chevron-right"></i>
+      <p>How to swim like a fish</p>
+    </div>
+
+    <div class="main_container grid">
+      <div class="author_panel">
+        <div class="author_details">
+          <figure>
+            <img
+              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80"
+              alt=""
+              class="author_image"
+            />
+            <figcaption>Joana Miles</figcaption>
+          </figure>
+          <p class="author_name">Joana Miles</p>
+          <p class="author_description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odio optio pariatur eos
+            quas dolorem recusandae magnam libero, vitae nobis ab maiores. Tempora soluta incidunt
+            aperiam voluptate aspernatur, quasi ipsam.
+          </p>
+        </div>
+        <div class="author_socials"></div>
+      </div>
+      <main>
+        <p class="article_title"></p>
+        <article>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore cupiditate doloribus
+          explicabo consequuntur itaque eaque distinctio ut hic, molestiae laudantium quis dolorum
+          unde non. Cupiditate recusandae vero ratione fugit magni odit quaerat pariatur eos earum
+          dignissimos excepturi cumque totam in illo, est facere aliquam, quod voluptatem quo eaque
+          aliquid? Inventore impedit nesciunt sed cupiditate officiis neque, nemo corporis suscipit
+          aliquid laboriosam dignissimos possimus vitae maxime autem, enim ad culpa, maiores sequi
+          placeat. Qui provident reiciendis asperiores necessitatibus excepturi, sunt culpa
+          assumenda quisquam voluptatibus sequi facilis soluta sapiente molestiae aliquid nihil et
+          corrupti non quasi, ab pariatur ipsum? Dolores quod, accusantium illum temporibus, magni
+          quasi expedita quo nihil molestias, voluptates praesentium voluptatibus iusto esse!
+          Voluptatum omnis architecto beatae veritatis nobis rem quos, doloribus officia?
+          Dignissimos architecto eveniet amet totam. Neque aliquid sed quia inventore quasi illum ab
+          exercitationem consectetur qui accusantium adipisci, recusandae optio similique saepe
+          labore rem enim velit dolorem? Hic, illum quia culpa, accusantium ullam, sunt itaque
+          quaerat id voluptate ex modi veritatis laborum obcaecati animi? Aut inventore modi enim,
+          reprehenderit veritatis pariatur consectetur quaerat vitae molestiae numquam eius odio
+          assumenda veniam nulla quibusdam nobis blanditiis, voluptatem illo eligendi soluta
+          molestias ipsa hic? Doloremque consectetur eius vero officia molestiae esse voluptatum
+          ullam temporibus asperiores quaerat, dicta iure fugit tempore possimus optio eum
+          necessitatibus ab consequatur reprehenderit maiores repellendus aliquid incidunt dolor.
+          Voluptates, porro? Temporibus nostrum voluptates nesciunt neque aperiam nemo. Repellendus
+          sapiente minus quaerat unde! Quae dolorem optio, earum culpa maiores enim voluptate
+          deserunt aliquid aperiam doloremque saepe mollitia! Lorem ipsum, dolor sit amet
+          consectetur adipisicing elit. Sunt qui molestias unde dolorum velit magnam optio vitae
+          provident, nihil consequuntur quas, voluptatem officia fuga molestiae obcaecati fugit
+          repudiandae explicabo tenetur atque, eaque ducimus enim. Blanditiis repellat tenetur
+          impedit maiores sunt!
+        </article>
+        <div class="comments_container">
+          <div class="comment">
+            <div class="comment_avatar"></div>
+            <div class="comment_details">
+              <p class="commentor_name">John Doe</p>
+              <p class="comment_date">13.03.2022</p>
+              <p class="comment_text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste totam ipsum,
+                doloremque placeat dignissimos tenetur aperiam debitis? Delectus, iure corporis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <!-- external js files -->
+    <script src="./main.js"></script>
+  </body>
+</html>
