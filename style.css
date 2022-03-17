@@ -61,6 +61,12 @@ body.light .header_left_panel_links ul li a {
   cursor: pointer;
 }
 
+.logo_text {
+  color: #e06633;
+  font-weight: 700;
+  font-size: 18px;
+}
+
 .theme_toggle_button {
   width: 32px;
   height: 16px;
@@ -97,7 +103,7 @@ body.light .theme_toggle_slider {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 10px 30px;
+  padding: 20px 30px;
   background: #23222b;
   border-top: 1px solid #52525e;
   border-bottom: 1px solid #52525e;
